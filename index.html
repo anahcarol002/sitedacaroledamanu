@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITE DA CAROL</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">MINHA LISTA</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">AÇÂO</a>
+                 </li>
+                 <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">COMÉDIA</a>
+                </li>  
+                 <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">FICÇÃO CIENTÍFICA</a>    
+                 </li>
+                 <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">DRAMA</a>    
+             </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">ROMANCE</a>    
+         </li>
+                <li class="lista-menu__item">
+                     <a href="#" class="lista-menu__link">TERROR</a>    
+     </li> 
+            </ul>
+        <img src="img/Logo.svg" alt="Logo" class="container__imagem">
+    </div>
+    <div class="container">
+        <a href="#"><img src="img/Favoritos (1).svg" alt="Meus favoritos" class="container__imagem"></a>
+        <a href="#"><img src="img/Sacola.svg" alt="Carrinhos de compras" class="container__imagem"></a>
+        <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+    </div> 
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">JÁ SABE O QUE VAI ASSISTIR?</h2>
+        <p class="banner__texto">AQUI VOCÊ ENCONTRA SEU FILME FAVORITO!!!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será seu próximo filme?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+     <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/FIMEMALEVOLA DISNEY.jpg" alt="FILME MALEVOLA"></div>
+      <div class="swiper-slide"><img src="img/FILMEABELAEAFERA DISNEY.jpg" alt="FILME A BELA E A FERA"></div>
+      <div class="swiper-slide"><img src="img/FILMEFROZEN DISNEY.jpg" alt="FILME FROZEN"></div>
+      <div class="swiper-slide"><img src="img/FILMETOYSTORY DISNEY.jpg" alt="FILME TOY STORY"></div>
+      <div class="swiper-slide"><img src="img/101DÁLMATAS.jpg" alt="FILME 101 DÁLMATAS"></div>
+      <div class="swiper-slide"><img src="img/ALADDIN DISNEY.jpg" alt="FILME ALADDIN"></div>
+      <div class="swiper-slide"><img src="img/CRUELA DISNEY.jpg" alt="FILME CRUELA"></div>
+      <div class="swiper-slide"><img src="img/GUARDIÕES DA GALÁXIA.jpg" alt="FILME GUARDIÕES DA GALÁXIA"></div>
+      <div class="swiper-slide"><img src="img/PETERPAN DISNEY.jpg" alt="FILME PETERPAN"></div>
+      <div class="swiper-slide"><img src="img/PROCURANDONEMO DISNEY.jpg" alt="FILME PROCURANDO NEMO"></div>
+      </div>
+    
+   <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <div class="card">
+    <!-- 1º linha -->
+    <div class="card__descriçao">
+        <!-- 1º coluna -->
+        <div class="descriçao">
+            <h3 class="descriçao__titulo">Talvez você tambem se interesse por...</h3>
+            <h2 class="descriçao__titulo-livro">FILMES DA DISNEY</h2>
+            <p class="descriçao__texto">FIZEMOS UMA PARCERIA COM A PLATAFORMA DE FILMES DA DISNEY</p>
+        </div>
+        <!-- 2º coluna -->
+            <img src="img/DISNEY ICONE SITE.jpg"class="descriçao__imagem">
+        </div>
+
+         <!-- 2º linha -->  
+        <div class="card__botões">
+            <!-- 1º coluna -->
+            <ul class="botões">
+               <li class="botões__item"><img src="img/Favoritos (1).svg" alt="favoritar livro"></li>
+               <li class="botões__item"><img src="img/Sacola.svg" alt="adicionar no carrinho de compras"></li>
+            </ul>
+        </div>
+        <!-- 2º coluna -->
+        <a href="#" class="botões__ancora">Saiba mais</a>
+   </div>
+</div>
+
+    </section>
+
+    <section class="tópicos">
+        <h2 class="tópicos__titulo">FILMES DA DISNEY VISITADOS RECENTEMENTE</h2>
+        <ul class="tópicos__lista">
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">O REI LEÃO</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">POCAHONTAS</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">A PEQUENA SEREIA</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">CINDERELA</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">A DAMA E O VAGABUNDO</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">AVATAR</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">VINGADORES: ULTIMATO</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">HOMEM-ARANHA: SEM VOLTA PARA CASA</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <h2 class="contato__titulo">FIQUE POR DENTRO DAS NOVIDADES!!!</h2>
+        <p class="contato__texto">Atualizações de filmes, novos lançamentos, e outros..</p>
+        <input type="email" placeholder="CADASTRE SEU E-MAIL" class="contato__email">
+    </section>
+
+    <hr />
+
+    <footer class="rodapê">
+        <h2 class="rodapê__titulo">SITE DA CAROL</h2>
+    
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+           spaceBetween: 10,
+           slidesPerView: 3,
+           pagination: {
+              el: '.swiper-pagination',
+              type: 'bullets',
+           },
+});
+     </script>
+</body>
+
+</html>
